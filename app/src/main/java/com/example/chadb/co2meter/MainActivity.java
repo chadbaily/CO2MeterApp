@@ -21,16 +21,16 @@ public class MainActivity extends AppCompatActivity {
 
         if(height > 1920 && width > 1080) {
 
-            String temp = "<iframe width=\" " + width / 4.75 + " \" height=\"" + height / 16.25 + "\" style=\"border: 1px solid #cccccc;\"" +
-                    "src=\"http://api.thingspeak.com/channels/183510/charts/1?width=" + width / 4.75 + "&height=" + height / 16.25 + "&results=30&dynamic=true\"" +
+            String temp = "<iframe frameborder=\"0\" scrolling=\"no\" style=\"overflow: hidden\" width=\" " + width / 4.75 + " \" height=\"" + height / 16.25 + "\" style=\"border: 1px solid #cccccc;\"" +
+                    "src=\"http://api.thingspeak.com/channels/183510/charts/1?width=" + width / 4.25 + "&height=" + height / 13.45 + "&results=30&dynamic=true\"" +
                     " ></iframe>";
 
-            String humidity = "<iframe width=\" " + width / 4.75 + " \" height=\"" + height / 16.25 + "\" style=\"border: 1px solid #cccccc;\"" +
-                    "src=\"http://api.thingspeak.com/channels/183510/charts/2?width=" + width / 4.75 + "&height=" + height / 16.25 + "&results=30&dynamic=true\"" +
+            String humidity = "<iframe frameborder=\"0\" scrolling=\"no\" style=\"overflow: hidden\" width=\" " + width / 4.75 + " \" height=\"" + height / 16.25 + "\" style=\"border: 1px solid #cccccc;\"" +
+                    "src=\"http://api.thingspeak.com/channels/183510/charts/2?width=" + width / 4.25 + "&height=" + height / 13.45 + "&results=30&dynamic=true\"" +
                     " ></iframe>";
 
-            String co2 = "<iframe width=\" " + width / 4.75 + " \" height=\"" + height / 16.25 + "\" style=\"border: 1px solid #cccccc;\"" +
-                    "src=\"http://api.thingspeak.com/channels/183510/charts/3?width=" + width / 4.75 + "&height=" + height / 16.25 + "&results=30&dynamic=true\"" +
+            String co2 = "<iframe frameborder=\"0\" scrolling=\"no\" style=\"overflow: hidden\" width=\" " + width / 4.75 + " \" height=\"" + height / 16.25 + "\" style=\"border: 1px solid #cccccc;\"" +
+                    "src=\"http://api.thingspeak.com/channels/183510/charts/3?width=" + width / 4.25 + "&height=" + height / 13.45 + "&results=30&dynamic=true\"" +
                     " ></iframe>";
 
             WebView tempView;
