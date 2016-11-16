@@ -1,0 +1,3 @@
+The implementation of Thingspeak's graphs into a user friendly android application. Utilizing android studio. The graphs were functioning due to iframes placed inside the main activity. This functions to provide useful data to customers on their applications.
+
+The application is currently in the early stages of development
